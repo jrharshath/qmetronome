@@ -1,0 +1,41 @@
+Installing qmetronome:
+
+--------------------------
+1. Compilation
+--------------------------
+To compile, you need to have qt development tools installed. 
+Compile command:
+
+    qmake && make
+
+---------------------------
+2. Running the app
+---------------------------
+To run the app, it must be able to find its configuration.
+By default, the app looks for its configuration in two places:
+
+  1. in ./conf
+  2. in ~/.qmetronome
+
+there is a configuration in ~/conf by default, so installation is requisite, per se.
+however, you might want to do this:
+
+    cp ./conf ~/.qmetronome -r
+
+to create a copy of the configurate in your home.
+
+No you can run the application from anywhere in your system.
+
+--------------------------
+ CREDITS
+--------------------------
+I would credit all the unsatisfactory metronomes I've tried using on ubuntu ;)
+Without them, I would never have made this effort.
+
+
+--------------------------
+ Free Code
+--------------------------
+This code is free as a bird. If you try to cage it, your underpants will catch fire.
+
+
